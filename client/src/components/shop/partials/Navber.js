@@ -62,21 +62,9 @@ const Navber = (props) => {
                 d="M4 6h16M4 12h16M4 18h16"
               />
             </svg>
-            <span
-              onClick={(e) => history.push("/")}
-              style={{ letterSpacing: "0.10rem" }}
-              className="flex items-left text-center font-bold uppercase text-gray-800 text-2xl cursor-pointer px-2 text-center"
-            >
-              TokoKita
-            </span>
+            <img src="/images/logo.png" className="col-span-1 w-20" />
           </div>
-          <div
-            onClick={(e) => history.push("/")}
-            style={{ letterSpacing: "0.70rem" }}
-            className="hidden lg:block flex items-left col-span-1 text-center text-gray-800 font-bold tracking-widest uppercase text-2xl cursor-pointer"
-          >
-            TokoKita
-          </div>
+          <img src="/images/logo.png" className="hidden lg:block col-span-1 w-70" />
           <div className="flex items-right col-span-2 lg:col-span-1 flex justify-end">
             {/*  WishList Page Button */}
             <div

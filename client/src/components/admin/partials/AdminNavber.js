@@ -35,13 +35,7 @@ const AdminNavber = (props) => {
         </div>
         {/*  Large Screen Show  */}
         <div className="hidden lg:block">
-          <span
-            onClick={(e) => history.push("/admin/dashboard")}
-            style={{ letterSpacing: "0.70rem" }}
-            className="flex items-left text-center font-bold uppercase text-gray-800 text-2xl cursor-pointer px-2 text-center"
-          >
-            TokoKita
-          </span>
+         <img src="/images/logo.png" alt="logo" className="w-50 h-14" />
         </div>
         {/* Small Screen Show */}
         <div className="lg:hidden flex items-center">
@@ -60,13 +54,7 @@ const AdminNavber = (props) => {
               d="M4 6h16M4 12h16M4 18h16"
             />
           </svg>
-          <span
-            onClick={(e) => history.push("/admin/dashboard")}
-            style={{ letterSpacing: "0.10rem" }}
-            className="flex items-left text-center font-bold uppercase text-gray-800 text-2xl cursor-pointer px-2 text-center"
-          >
-            TokoKita
-          </span>
+          <img src="/images/logo.png" alt="logo" className="w-50 h-12" />
         </div>
         {/* Both Screen show */}
         <div className="flex items-center">
