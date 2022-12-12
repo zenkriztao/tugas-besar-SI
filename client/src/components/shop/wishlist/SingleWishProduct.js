@@ -74,7 +74,7 @@ const Product = () => {
                   )}
 
                   <div
-                    style={{ background: "#303031" }}
+                    style={{ background: "#131351" }}
                     onClick={(e) => history.push(`/products/${product._id}`)}
                     className="inline-block px-4 py-2 text-white text-xs md:text-base text-center cursor-pointer hover:opacity-75"
                   >

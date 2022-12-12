@@ -16,14 +16,14 @@ const ProductCategory = (props) => {
             })
           }
           className={`flex items-center space-x-1 cursor-pointer ${
-            data.categoryListDropdown ? "text-yellow-700" : ""
+            data.categoryListDropdown ? "text-blue-700" : ""
           }`}
         >
-          <span className="text-md md:text-lg hover:text-yellow-700">
-            Categories
+          <span className="text-md md:text-lg hover:text-blue-700">
+            Kategori 
           </span>
           <svg
-            className="w-4 h-4 text-yellow-700"
+            className="w-4 h-4 text-blue-700"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -46,13 +46,13 @@ const ProductCategory = (props) => {
               })
             }
             className={`flex items-center space-x-1 cursor-pointer ${
-              data.filterListDropdown ? "text-yellow-700" : ""
+              data.filterListDropdown ? "text-blue-700" : ""
             }`}
           >
             <span className="text-md md:text-lg">Filter</span>
             <span>
               <svg
-                className="w-4 h-4 text-gray-700 text-yellow-700"
+                className="w-4 h-4 text-gray-700 text-blue-700"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -76,13 +76,13 @@ const ProductCategory = (props) => {
               })
             }
             className={`flex items-center space-x-1 cursor-pointer ${
-              data.searchDropdown ? "text-yellow-700" : ""
+              data.searchDropdown ? "text-blue-700" : ""
             }`}
           >
             <span className="text-md md:text-lg">Search</span>
             <span>
               <svg
-                className="w-4 h-4 text-gray-700 text-yellow-700"
+                className="w-4 h-4 text-gray-700 text-blue-700"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"

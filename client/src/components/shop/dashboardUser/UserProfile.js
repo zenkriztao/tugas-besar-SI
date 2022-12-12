@@ -102,7 +102,7 @@ const ProfileComponent = () => {
             </div>
             <div
               onClick={(e) => handleSubmit()}
-              style={{ background: "#303031" }}
+              style={{ background: "#131351" }}
               className="w-full text-center cursor-pointer px-4 py-2 text-gray-100"
             >
               Update Information

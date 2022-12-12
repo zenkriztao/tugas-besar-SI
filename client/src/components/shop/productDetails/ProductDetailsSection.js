@@ -368,7 +368,7 @@ const ProductDetailsSection = (props) => {
                   {layoutData.inCart !== null &&
                   layoutData.inCart.includes(sProduct._id) === true ? (
                     <div
-                      style={{ background: "#303031" }}
+                      style={{ background: "#131351" }}
                       className={`px-4 py-2 text-white text-center cursor-not-allowed uppercase opacity-75`}
                     >
                       In cart
@@ -387,7 +387,7 @@ const ProductDetailsSection = (props) => {
                           totalCost
                         )
                       }
-                      style={{ background: "#303031" }}
+                      style={{ background: "#131351" }}
                       className={`px-4 py-2 text-white text-center cursor-pointer uppercase`}
                     >
                       Add to cart
@@ -399,14 +399,14 @@ const ProductDetailsSection = (props) => {
                   {layoutData.inCart !== null &&
                   layoutData.inCart.includes(sProduct._id) === true ? (
                     <div
-                      style={{ background: "#303031" }}
+                      style={{ background: "#131351" }}
                       className={`px-4 py-2 text-white text-center cursor-not-allowed uppercase opacity-75`}
                     >
                       In cart
                     </div>
                   ) : (
                     <div
-                      style={{ background: "#303031" }}
+                      style={{ background: "#131351" }}
                       disabled={true}
                       className="px-4 py-2 text-white opacity-50 cursor-not-allowed text-center uppercase"
                     >

@@ -48,7 +48,7 @@ export const CheckoutComponent = (props) => {
             d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
           ></path>
         </svg>
-        Please wait untill finish
+        Mohon tunggu sebentar
       </div>
     );
   }
@@ -77,7 +77,7 @@ export const CheckoutComponent = (props) => {
                   )}
                   <div className="flex flex-col py-2">
                     <label htmlFor="address" className="pb-2">
-                      Dalivery Address
+                      Alamat Pengiriman
                     </label>
                     <input
                       value={state.address}
@@ -135,9 +135,9 @@ export const CheckoutComponent = (props) => {
                       )
                     }
                     className="w-full px-4 py-2 text-center text-white font-semibold cursor-pointer"
-                    style={{ background: "#303031" }}
+                    style={{ background: "#0E0E58" }}
                   >
-                    Pay now
+                    Bayar Sekarang
                   </div>
                 </div>
               </Fragment>
@@ -203,7 +203,7 @@ const CheckoutProducts = ({ products }) => {
             );
           })
         ) : (
-          <div>No product found for checkout</div>
+          <div>Belum ada barang untuk checkout</div>
         )}
       </div>
     </Fragment>

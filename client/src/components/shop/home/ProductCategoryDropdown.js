@@ -104,12 +104,12 @@ const FilterList = () => {
     <div className={`${data.filterListDropdown ? "" : "hidden"} my-4`}>
       <hr />
       <div className="w-full flex flex-col">
-        <div className="font-medium py-2">Filter by price</div>
+        <div className="font-medium py-2">Filter harga</div>
         <div className="flex justify-between items-center">
           <div className="flex flex-col space-y-2  w-2/3 lg:w-2/4">
             <label htmlFor="points" className="text-sm">
-              Price (between 0 and 10$):{" "}
-              <span className="font-semibold text-yellow-700">{range}.00$</span>{" "}
+              Price (between 0 and Rp 300.000):{" "}
+              <span className="font-semibold text-yellow-700">{range}.Rp.0</span>{" "}
             </label>
             <input
               value={range}

@@ -37,19 +37,13 @@ const Navber = (props) => {
               className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
               onClick={(e) => history.push("/")}
             >
-              Shop
+              Toko
             </span>
             <span
               className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
               onClick={(e) => history.push("/blog")}
             >
-              Blog
-            </span>
-            <span
-              className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
-              onClick={(e) => history.push("/contact-us")}
-            >
-              Contact us
+              Article
             </span>
           </div>
           <div className="col-span-2 lg:hidden flex justify-items-stretch	 items-center">
@@ -153,7 +147,7 @@ const Navber = (props) => {
                                 />
                               </svg>
                             </span>
-                            <span>My Orders</span>
+                            <span>List orderan</span>
                           </span>
                           <span
                             onClick={(e) => history.push("/user/profile")}
@@ -368,22 +362,22 @@ const Navber = (props) => {
         >
           <div className="col-span-1 flex flex-col text-gray-600">
             <span
-              className="font-medium text-lg tracking-widest hover:text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-lg cursor-pointer"
+              className="font-bold text-lg tracking-widest hover:text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-lg cursor-pointer"
               onClick={(e) => history.push("/")}
             >
-              Shop
+              Toko
             </span>
             <span
-              className="font-medium text-lg tracking-widest hover:text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-lg cursor-pointer"
+              className="font-bold text-lg tracking-widest hover:text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-lg cursor-pointer"
               onClick={(e) => history.push("/blog")}
             >
-              Blog
+              Article
             </span>
             <span
-              className="font-medium text-lg tracking-widest hover:text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-lg cursor-pointer"
+              className="font-bold text-lg tracking-widest hover:text-gray-800 hover:bg-gray-200 px-3 py-2 rounded-lg cursor-pointer"
               onClick={(e) => history.push("/contact-us")}
             >
-              Contact us
+              Contact Us
             </span>
           </div>
         </div>

@@ -48,7 +48,7 @@ const LoginSignup = (props) => {
           </div>
           <div
             onClick={(e) => changeLoginSignup()}
-            style={{ color: "#303031", border: "1px solid #303031" }}
+            style={{ color: "#131351", border: "1px solid #131351" }}
             className="px-4 py-2 font-medium text-center cursor-pointer"
           >
             {loginValue}
