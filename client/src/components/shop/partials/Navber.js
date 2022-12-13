@@ -32,7 +32,7 @@ const Navber = (props) => {
       {/* Navber Section */}
       <nav className="fixed top-0 w-full z-20 shadow-lg lg:shadow-none bg-white">
         <div className="m-4 md:mx-12 md:my-6 grid grid-cols-4 lg:grid-cols-3">
-          <div className="hidden lg:block col-span-1 flex text-gray-600 mt-1">
+          <div className="hidden lg:block col-span-1 flex text-blue-800 mt-1">
             <span
               className="hover:bg-gray-200 px-4 py-3 rounded-lg font-light tracking-widest hover:text-gray-800 cursor-pointer"
               onClick={(e) => history.push("/")}
@@ -64,7 +64,7 @@ const Navber = (props) => {
             </svg>
             <img src="/images/logo.png" className="col-span-1 w-20" />
           </div>
-          <img src="/images/logo.png" className="hidden lg:block col-span-1 w-70" />
+          <img src="/images/logo.png" className="hidden lg:block col-span-1 w-40" />
           <div className="flex items-right col-span-2 lg:col-span-1 flex justify-end">
             {/*  WishList Page Button */}
             <div

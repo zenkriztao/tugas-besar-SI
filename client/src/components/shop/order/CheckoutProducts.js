@@ -96,7 +96,7 @@ export const CheckoutComponent = (props) => {
                   </div>
                   <div className="flex flex-col py-2 mb-2">
                     <label htmlFor="phone" className="pb-2">
-                      Phone
+                     Nomor HP 
                     </label>
                     <input
                       value={state.phone}
@@ -110,7 +110,7 @@ export const CheckoutComponent = (props) => {
                       type="number"
                       id="phone"
                       className="border px-4 py-2"
-                      placeholder="+880"
+                      placeholder="+62"
                     />
                   </div>
                   <DropIn
